@@ -1,0 +1,62 @@
+{
+  "order_uid": "d1a2b3c4e5f6g7test",
+  "track_number": "TRACK987654",
+  "entry": "XYZ",
+  "delivery": {
+      "name": "Jane Smith",
+      "phone": "+0987654321",
+      "zip": "54321",
+      "city": "Othertown",
+      "address": "456 Oak St",
+      "region": "Another Region",
+      "email": "jane.smith@example.com"
+  },
+  "payment": {
+      "transaction": "d1a2b3c4e5f6g7test",
+      "request_id": "",
+      "currency": "EUR",
+      "provider": "stripe",
+      "amount": 3200,
+      "payment_dt": 1645396000,
+      "bank": "gamma",
+      "delivery_cost": 250,
+      "goods_total": 2950,
+      "custom_fee": 50
+  },
+  "items": [
+      {
+          "chrt_id": 123456789,
+          "track_number": "TRACK987654",
+          "price": 2000,
+          "rid": "ghi987654321",
+          "name": "Gadget",
+          "sale": 10,
+          "size": "Large",
+          "total_price": 1800,
+          "nm_id": 987654,
+          "brand": "Tech Co.",
+          "status": 201
+      },
+      {
+          "chrt_id": 987654321,
+          "track_number": "TRACK987654",
+          "price": 950,
+          "rid": "def123456789",
+          "name": "Gizmo",
+          "sale": 5,
+          "size": "Small",
+          "total_price": 1150,
+          "nm_id": 654321,
+          "brand": "Widgets Inc.",
+          "status": 200
+      }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "janesmith",
+  "delivery_service": "fedex",
+  "shardkey": "7",
+  "sm_id": 77,
+  "date_created": "2022-02-21T12:45:00Z",
+  "oof_shard": "3"
+}

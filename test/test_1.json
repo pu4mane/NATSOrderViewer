@@ -1,0 +1,49 @@
+{
+  "order_uid": "c8912aef6b1c4c1test",
+  "track_number": "TESTTRACK123",
+  "entry": "ABC",
+  "delivery": {
+      "name": "John Doe",
+      "phone": "+1234567890",
+      "zip": "12345",
+      "city": "Anytown",
+      "address": "123 Main St",
+      "region": "Some Region",
+      "email": "john.doe@example.com"
+  },
+  "payment": {
+      "transaction": "c8912aef6b1c4c1test",
+      "request_id": "",
+      "currency": "USD",
+      "provider": "paypal",
+      "amount": 2500,
+      "payment_dt": 1645395000,
+      "bank": "beta",
+      "delivery_cost": 200,
+      "goods_total": 2300,
+      "custom_fee": 0
+  },
+  "items": [
+      {
+          "chrt_id": 987654321,
+          "track_number": "TESTTRACK123",
+          "price": 1500,
+          "rid": "def123456789",
+          "name": "Widget",
+          "sale": 0,
+          "size": "Medium",
+          "total_price": 1500,
+          "nm_id": 654321,
+          "brand": "Acme",
+          "status": 200
+      }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "johndoe",
+  "delivery_service": "ups",
+  "shardkey": "5",
+  "sm_id": 55,
+  "date_created": "2022-02-20T10:30:00Z",
+  "oof_shard": "2"
+}

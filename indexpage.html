@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Order ID</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+            width: 50%;
+            max-width: 500px;
+        }
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        input[type="submit"] {
+            width: auto;
+            margin: 20px auto;
+            display: block;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/order" method="get">
+        <label for="id">Order ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

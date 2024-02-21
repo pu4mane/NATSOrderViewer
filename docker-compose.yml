@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: postgres
+    ports: 
+    - "5432:5432"
+    environment:
+      - POSTGRES_DB=orders
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=130197
+    image: postgres:latest
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  stan:
+    image: nats-streaming:latest
+    ports:
+      - 4222:4222
